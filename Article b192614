@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\title{MY INFORMATION}
+\author{B192614 }
+\date{31-07-2022}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\vspace{1cm}
+\centering
+\section{PERSONAL INFORMATION}
+\flushleft
+\vspace{1cm}
+\begin{enumerate}
+    \item NAME:S.Deepthi
+    \item ID:B192614
+    \item BRANCH:computer science and engineering
+    
+    \item CLASS:CSE-C5
+    \item MOTHER NAME:S.Sunitha
+    \item FATHER NAME:S.Srinivas
+    \item BLOOD GROUP:B+
+    \item HOSTEL:Ganga hostel
+    \item ADDRESS:Rajanna sircilla, Telangana, 505301
+\end{enumerate}
+\pagebreak
+\begin{table}
+\centering
+\section{SEMESTER RESULTS}
+\vspace{0.5cm}
+\subsection{PUC-MARKS}
+\vspace{1cm}
+    \centering
+    \begin{tabular}{||c||c||c||}
+    \hline
+     S.NO & SUBJECT  & MARKS \\
+     \hline
+     \hline
+      1 & Telugu & 95\\
+      \hline
+       2 & ENGLISH & 95\\
+       \hline
+       3 & MATHS & 90\\
+       \hline
+       4  & PHYSICS & 90\\
+       \hline
+       5  & CHEMISTRY & 95\\
+       \hline
+    \end{tabular}
+    \caption{puc results}
+    \label{tab:results}
+    \vspace{2cm}
+    \subsection{ENGENEERING RESULTS}
+    \vspace{1cm}
+    \begin{tabular}{||c||c||c||}
+    \hline
+      S.NO & SUBJECT & MARKS\\
+      \hline
+      \hline
+       1  & PPS & 95\\
+       \hline
+       2 & MATHS & 90\\
+       \hline
+       3 & CHEMISTRY & 94\\
+       \hline
+       4 & WORKSHOP & 99\\
+       \hline
+       5 & COMMUNICATION SKILLS & 98\\
+       \hline
+    \end{tabular}
+    \caption{Engineering results}
+\label{tab2:eng results}
+\end{table}
+\clearpage
+\begin{figure}
+    \centering
+   \vspace{2cm}
+\includegraphics[scale=0.3]{rgukt.jpg}
+\caption{RGUKT}
+\label{fig:rguktlogo}
+\end{figure}
+\clearpage
+\centering
+\begin{Huge}
+\vfil
+\hfil \hfil
+\vfil
+\textbf{\Huge{THANKYOU}}
+\end{Huge}
+\end{document}
